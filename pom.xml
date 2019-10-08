@@ -13,6 +13,7 @@
 		<powermock.version>2.0.0-beta.5</powermock.version>
 	</properties>
 	<dependencies>
+		<!-- testing -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
@@ -30,25 +31,7 @@
 			<artifactId>mockito-core</artifactId>
 			<version>2.23.4</version>
 		</dependency>
-		<dependency>
-			<groupId>org.jmockit</groupId>
-			<artifactId>jmockit</artifactId>
-			<version>1.24</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-module-junit4</artifactId>
-			<version>${powermock.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<!-- PowerMock Mockito2 API -->
-		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-api-mockito2</artifactId>
-			<version>${powermock.version}</version>
-			<scope>test</scope>
-		</dependency>
+		<!-- jax-rs -->
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-server</artifactId>
@@ -69,11 +52,7 @@
 			<artifactId>jersey-servlet</artifactId>
 			<version>1.18.3</version>
 		</dependency>
-		<dependency>
-			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjrt</artifactId>
-			<version>1.8.9</version>
-		</dependency>
+		<!-- logging -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
